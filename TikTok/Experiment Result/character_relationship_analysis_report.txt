@@ -1,0 +1,29 @@
+=== TikTok Character Relationship Analysis Report ===
+
+1. Character Similarity Based on Co-occurring Words:
+            Zayne   Rafayel     Sylus    Xavier     Caleb
+Zayne    1.000000  0.175681  0.176370  0.157343  0.166111
+Rafayel  0.175681  1.000000  0.171455  0.139163  0.146980
+Sylus    0.176370  0.171455  1.000000  0.146415  0.155470
+Xavier   0.157343  0.139163  0.146415  1.000000  0.144828
+Caleb    0.166111  0.146980  0.155470  0.144828  1.000000
+
+2. Character Similarity Based on Sentiment Distribution:
+            Zayne   Rafayel     Sylus    Xavier     Caleb
+Zayne    1.000000  0.999995  0.916105  0.962486  0.985350
+Rafayel  0.999995  1.000000  0.914825  0.961619  0.984803
+Sylus    0.916105  0.914825  1.000000  0.990525  0.971061
+Xavier   0.962486  0.961619  0.990525  1.000000  0.994660
+Caleb    0.985350  0.984803  0.971061  0.994660  1.000000
+
+3. Mutual Mentions Between Characters:
+         Zayne  Rafayel  Sylus  Xavier  Caleb
+Zayne      0.0     47.0   66.0    44.0   34.0
+Rafayel   15.0      0.0   16.0    14.0   13.0
+Sylus     22.0     16.0    0.0    16.0   11.0
+Xavier    24.0     29.0   31.0     0.0   12.0
+Caleb     41.0     38.0   44.0    40.0    0.0
+
+4. Analysis Summary:
+   Most similar character pair (word co-occurrence): ('Zayne', 'Sylus') with similarity 0.18
+   Most mutual mentions: ('Zayne', 'Sylus') with 66.0 mentions
